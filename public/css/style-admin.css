@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 20px;
+  margin-right: 35px;
+}
+body{
+  font-size: 12px;
+}
+.admin-auth-area{
+  width: 100%;
+  height: 36rem;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+.admin-auth-area .admin-form-area{
+  width: 20rem;
+  height: auto;
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #1bd172;
+}
+.admin-form-area h4{
+  color: #1bd172;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.admin-form-area input{
+  background-color: #eaeaea;
+  outline: none;
+  border: 1px solid #1bd172;
+}
+.admin-form-area input::placeholder{
+  font-size: 12px;
+}
+.register-area{
+  width: 25rem !important;
+}
+.search-icon-bar{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.profile-area{
+  height: 50px;
+}
+.profile-area img{
+  height: 40px;
+  border-radius:100%;
+}
+.nav-menu ul li a{
+  color: #FAAB36;
+}
+
+hr{
+  background-color: #dadada;
+  opacity: 0.4;
+}
+.dashboard-option ul li{
+  font-size: 15px;
+  margin-left: 15px;
+}
+.dashboard-option ul li a{
+  text-decoration: none;
+}
+.dashboard-option ul li span{
+  color: #FAAB36;
+}
+
+
+

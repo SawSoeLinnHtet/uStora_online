@@ -1,0 +1,16 @@
+{
+    "name": "hazel/ustoraonlinemarket",
+    "authors": [
+        {
+            "name": "Hazel In Wonderland",
+            "email": "hazelinwonderland.9125@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "HTTP/_classes/Libs/",
+            "Helpers\\": "HTTP/_classes/Helpers/"
+        }
+    }
+}
