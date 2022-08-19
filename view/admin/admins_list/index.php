@@ -23,11 +23,6 @@
                 </span>
               </h5>
             </div>
-            <div class="col-12 col-lg-6">
-              <a href="#" class="btn btn-primary btn-sm float-right mr-3 mt-4">
-                Create New Admin
-              </a>
-            </div>
           </div>
           <div class="row p-3">
             <div class="container table-responsive">

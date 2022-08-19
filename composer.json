@@ -6,7 +6,9 @@
             "email": "hazelinwonderland.9125@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "nesbot/carbon": "^2.61"
+    },
     "autoload": {
         "psr-4": {
             "Libs\\": "HTTP/_classes/Libs/",

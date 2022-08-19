@@ -17,10 +17,10 @@
 
   <?php include("../layouts/aside.php") ?>  
   
-    <div class="col-10 p-0 bg-dark">
+    <div class="col-lg-10 col-9 p-0 bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12">
             <h5 style="margin-left:20px;margin-top:20px">
               <i class="fa-solid fa-user-graduate text-white mr-3 ml-3" style="font-size:17px"></i>
               <span class="font-weight-bold text-white">

@@ -12,10 +12,10 @@
 
   <?php include("../layouts/aside.php") ?>  
   
-    <div class="col-10 p-0 bg-dark">
-      <div class="container">
+    <div class="col-lg-10 col-9 p-0 bg-dark">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12">
             <h5 style="margin-left:20px;margin-top:20px">
               <i class="fa-solid fa-user-graduate text-white mr-3 ml-3" style="font-size:17px"></i>
               <span class="font-weight-bold text-white">
@@ -24,9 +24,9 @@
             </h5>
           </div>
           <div class="col-12 pr-5">
-            <div class="container">
+            <div class="container-fluid">
               <form action="../../../HTTP/_actions/admin/product/create.php" method="POST" enctype="multipart/form-data">
-                <div class="form-row align-items-center p-4">
+                <div class="form-row align-items-center p-lg-4 p-0">
                 <?php if (isset($_GET['fail'])) : ?>
                   <div class="alert alert-warning">
                     Cannot Create New Product!
@@ -39,7 +39,7 @@
                 <?php endif ?>
                   <div class="col-sm-12 my-1 mt-1">
                     <label class="sr-only" for="inlineFormInputName">Name</label>
-                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Category Name..." name="name" required>
+                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Product Name..." name="name" required>
                   </div>
                   <div class="col-sm-12 my-1 mt-3">
                     <select class="form-select bg-light border-0" aria-label="Default select example" style="height: 38px;width:100%;border-radius:3px" name="category" required>
@@ -57,7 +57,7 @@
                   </div>
                   <div class="col-sm-12 my-1 mt-3">
                     <label class="sr-only" for="inlineFormInputName">Name</label>
-                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Product Price" name="price" required>
+                    <input type="number" class="form-control" id="inlineFormInputName" placeholder="Product Price" name="price" required>
                   </div>
                   <div class="col-sm-12 my-1 mt-3">
                     <label class="sr-only" for="inlineFormInputName">Default file input example</label>

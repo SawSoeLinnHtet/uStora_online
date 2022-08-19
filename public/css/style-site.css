@@ -43,12 +43,9 @@ body{
   color:#FAAB36;
 }
 .cart-button{
-  padding: 5px 20px;
-  border: 1px solid skyblue;
+  border: 0;
   color: skyblue;
   background-color: #fff;
-  margin: 0 auto;
-  border-radius: 5px;
 }
 .carousel-indicators .active{
   background-color: #0056b3 !important;

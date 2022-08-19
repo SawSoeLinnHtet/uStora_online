@@ -4,23 +4,25 @@
         Admin Login 
       </h4>
       <br/>
-      <?php if(isset($_GET['Registered'])): ?>
-        <div class="alert alert-success">
-          Account Created.Please Login 
-        </div>
-      <?php endif ?>
+      <div class="px-4">
+        <?php if($_GET['Registered'] == 1): ?>
+          <div class="alert alert-success">
+            Account Created.Please Login 
+          </div>
+        <?php endif ?>
 
-      <?php if(isset($_GET['Suspended'])): ?>
-        <div class="alert alert-danger">
-          Your Account is Suspended.
-        </div> 
-      <?php endif ?>
+        <?php if(isset($_GET['Suspended'])): ?>
+          <div class="alert alert-danger">
+            Your Account is Suspended.
+          </div> 
+        <?php endif ?>
 
-      <?php if (isset($_GET['incorrect'])) : ?>
-        <div class="alert alert-warning">
-          Incorrect Email or Password
-        </div>
-      <?php endif ?>
+        <?php if (isset($_GET['incorrect'])) : ?>
+          <div class="alert alert-warning">
+            Incorrect Email or Password
+          </div>
+        <?php endif ?>
+      </div>
       <form action="../../../HTTP/_actions/admin/login.php" method="POST">
         <div class="form-row align-items-center p-4">
           <div class="col-sm-12 my-1">

@@ -67,15 +67,15 @@
                       </td>
                     </tr>
                     <tr>
-                      <td></td>
-                      <td></td>
                       <td class="actions">
-                        <a href="../cart/" class="btn btn-primary btn-sm   px-3 text-white">
+                        <a href="../cart/" class="btn btn-info btn-sm px-3 text-white">
                           Back
                         </a>
                       </td>
+                      <td></td>
+                      <td></td>
                       <td class="actions">
-                        <a href="../../../HTTP/_actions/site/check_out/check-out.php" class="btn btn-primary btn-sm px-3">
+                        <a href="../../../HTTP/_actions/site/check_out/check-out.php" class="btn btn-primary btn-sm px-3 float-right">
                           Order Now
                         </a>
                       </td>

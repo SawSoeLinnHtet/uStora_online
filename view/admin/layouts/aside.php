@@ -28,49 +28,49 @@
                   <li>
                     <a href="../dashboard/">
                       <i class="fa-solid fa-house text-white mr-3"></i>
-                      <span class="d-none d-md-block">Dashboard</span>
+                      <span class="d-none d-md-inline">Dashboard</span>
                     </a>
                   </li>
                   <hr/>
                   <li>
                     <a href="../admins_list/">
                       <i class="fa-solid fa-user-graduate text-white mr-3"></i>
-                      <span class="d-none d-md-block">Admins</span>
+                      <span class="d-none d-md-inline">Admins</span>
                     </a>
                   </li>
                   <hr/>
                   <li>
                     <a href="../users/">
                       <i class="fa-solid fa-users text-white mr-3"></i>
-                      <span class="d-none d-md-block">Users</span>
+                      <span class="d-none d-md-inline">Users</span>
                     </a>
                   </li>
                   <hr/>
                   <li>
                     <a href="../category/">
                       <i class="fa-solid fa-cubes-stacked text-white mr-3"></i>
-                      <span class="d-none d-md-block">Categories</span>
+                      <span class="d-none d-md-inline">Categories</span>
                     </a>
                   </li>
                   <hr/>
                   <li>
                     <a href="../product/">
                       <i class="fa-solid fa-warehouse text-white mr-3"></i>
-                      <span class="d-none d-md-block">Products</span>
+                      <span class="d-none d-md-inline">Products</span>
                     </a>
                   </li>
                   <hr/>
                   <li>
                     <a href="../order/">
                     <i class="fa-solid fa-cart-arrow-down text-white mr-3"></i>
-                      <span class="d-none d-md-block">Orders</span>
+                      <span class="d-none d-md-inline">Orders</span>
                     </a>
                   </li>
                   <hr/>
                 </ul>
               </div> 
               <div class="switch-to-user">
-                <a href="" class="mt-5" style="padding-left:10px;line-height:7.9rem;">
+                <a href="../../site/landing_page/" class="mt-5" style="padding-left:10px;line-height:7.9rem;">
                   <i class="fa-solid fa-user text-white mr-3" style="font-size: 20px"></i>
                   <span class="text-success d-none d-md-inline">Switch </span>
                 </a>

@@ -67,39 +67,6 @@
                     </a>Tags: 
                     <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a href="">shoes</a>. </p>
                 </div>
-                <!-- <div class="product-summary">
-                  <ul class="nav nav-tabs">
-                    <li class="active nav nav-item"><a data-toggle="tab" href="#description" style="padding:20px">Description</a></li>
-                    <li class="nav nav-item"><a data-toggle="tab" href="#summary" style="padding:20px">Summary</a></li>
-                  </ul>
-
-                  <div class="tab-content">
-                    <div id="description" class="tab-pane mt-3 active" style="padding:10px">
-                      <p class="text-warning">
-                        <?= $product[0]->description ?>
-                      </p>
-                    </div>
-                    <div id="summary" class="mt-3 tab-pane" style="padding:10px">
-                      <p class="text-warning">
-                        <?= $product[0]->summary ?>
-                      </p>
-                    </div>    
-                  </div>
-                </div> -->
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                      <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                      <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-                    </div>
-                  </nav>
-                  <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                      <?= $product[0]->description ?>
-                    </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                      <?= $product[0]->summary ?>
-                    </div>
-                  </div>
               </div>
             </div>
           </div>
@@ -108,8 +75,6 @@
     </div>
   </div>
 </section>
-
-
 
 <?php include("../layouts/footer.php") ?>
 

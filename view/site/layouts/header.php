@@ -13,6 +13,10 @@
   $carts = $table->getByUserId($id);
 
   $auth = AuthSite::check();
+  $total_quantity = 0;
+  foreach($carts as $cart){
+    $total_quantity += $cart->quantity;
+  }
 ?>
 
 <!DOCTYPE html>
@@ -95,8 +99,9 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="position:relative">
           <span class="navbar-toggler-icon"></span>
-          <span class="badge badge-danger" style="position:absolute;border-radius:100%">
-            <?= count($carts) ?>
+          <?php if($carts): ?>
+            <span class="badge badge-danger" style="position:absolute;border-radius:100%">
+          <?php endif ?>
           </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 13px;z-index:100">
@@ -125,10 +130,10 @@
           </ul>
           <ul class="navbar-nav ml-auto">
             <li>
-              <a href="../cart/" style="text-decoration: none;cursor:pointer" class="cart-button my-sm-3">
+              <a href="../cart/" style="text-decoration: none;cursor:pointer" class="cart-button">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <span class="badge badge-white">
-                  <?= count($carts) ?>
+                  <?= $total_quantity ?>
                 </span>
               </a>
             </li>

@@ -4,12 +4,12 @@
         Login Account
       </h4>
       <?php if(isset($_GET['incorrect'])): ?>
-        <div class="alert alert-success">
+        <div class="alert alert-success ml-2">
           Incorrect Email or Password!
         </div>
       <?php endif ?>
       <?php if(isset($_GET['suspended'])): ?>
-        <div class="alert alert-success">
+        <div class="alert alert-success px-3">
           Your Account is Suspended!
         </div> 
       <?php endif ?>

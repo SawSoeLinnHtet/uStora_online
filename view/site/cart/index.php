@@ -62,7 +62,7 @@
                       </tr>
                       <?php endforeach ?>
                       <tr>
-                        <td class="actions" colspan="6">
+                        <td class="actions" colspan="2">
                           <div class="coupon">
                           <label for="coupon_code">Coupon:</label>
                           <input type="text" placeholder="Coupon code" value="" id="coupon_code" class="coupon input-text " name="coupon_code">
@@ -74,6 +74,9 @@
                           >
                               Apply Coupon
                           </a>
+                        </td>
+                        <td class="actions" colspan="4">
+                          <div class="float-right">
                           <a 
                             class="btn btn-primary btn-sm ml-2"
                             href="../shop_page/" style="text-decoration: none;" 
@@ -95,6 +98,7 @@
                           >
                             Remove All
                           </a>
+                          </div>
                         </td>
                       </tr>
                     </tbody>

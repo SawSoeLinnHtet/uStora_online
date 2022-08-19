@@ -13,22 +13,22 @@
 
   <?php include("../layouts/aside.php") ?>  
   
-    <div class="col-10 p-0 bg-dark">
+    <div class="col-lg-10 col-9 p-0 bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-6">
-            <h5 style="margin-left:20px;margin-top:20px">
+          <div class="col-12 col-lg-6">
+            <h5 class="h5" style="margin-left:20px;margin-top:20px">
               <i class="fa-solid fa-user-graduate text-white mr-3 ml-3" style="font-size:17px"></i>
               <span class="font-weight-bold text-white">
                 Users Edit Form
               </span>
             </h5>
           </div>
-          <div class="col-6 pr-5">
+          <div class="col-12 pr-lg-5">
             <div class="container"> 
               <form 
               action="../../../HTTP/_actions/admin/users/edit.php?uuid=<?= $user[0]->id ?>" method="POST">
-                <div class="form-row align-items-center p-4">
+              <div class="form-row align-items-center p-4">
                 <?php if (isset($_GET['incorrect'])) : ?>
                   <div class="alert alert-warning">
                     Incorrect Email or Password
@@ -38,7 +38,7 @@
                     <label class="sr-only" for="inlineFormInputName">Name</label>
                     <input type="text" class="form-control" id="inlineFormInputName" placeholder="Username..." name="name" required value="<?= $user[0]->name ?>">
                   </div>
-                  <div class="col-sm-12 my-1 mt-3">
+                  <div class="col-sm-12 my-0 mt-3">
                     <label class="sr-only" for="inlineFormInputName">Name</label>
                     <input type="text" class="form-control" id="inlineFormInputName" placeholder="Email address..." name="email" required value="<?= $user[0]->email ?>">
                   </div>
@@ -51,12 +51,12 @@
                     <input type="text" class="form-control" id="inlineFormInputName" placeholder="Phone Number..."
                     name="phone-number" value="<?= $user[0]->phone_number ?>">
                   </div>
-                  <div class="col-sm-6 my-1 mt-3">
+                  <div class="col-sm-12 my-1 mt-3">
                     <label class="sr-only" for="inlineFormInputName">Name</label>
                     <input type="text" class="form-control" id="inlineFormInputName" placeholder="City..."
                     name="city" required value="<?= $user[0]->city ?>">
                   </div>
-                  <div class="col-sm-6 my-1 mt-3">
+                  <div class="col-sm-12 my-1 mt-3">
                     <label class="sr-only" for="inlineFormInputName">Name</label>
                     <input type="text" class="form-control" id="inlineFormInputName" placeholder="Postal Code..." name="postal-code" required value="<?= $user[0]->postal_code ?>">
                   </div>
